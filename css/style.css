@@ -1,0 +1,64 @@
+.pink {
+  background-color: pink;
+  height: 50px;
+  width: 100%;
+}
+
+.blue {
+  background-color: blue;
+  height: 25px;
+  width: 100%;
+}
+
+/* HEADER */
+header {
+  color: white;
+}
+
+header>nav {
+  height: 70px;
+  background-color: #2C3E50;
+}
+
+.jumbotron {
+  position: relative;
+  margin-top: 70px;
+  height: 500px;
+  background-color: #1ABC9C;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* MAIN */
+.main-top {
+  height: 500px;
+}
+
+.main-center {
+  height: 500px;
+  background-color: #1ABC9C;
+}
+
+.main-bottom {
+  height: 500px;
+}
+
+/* FOOTER */
+footer {
+  height: 300px;
+}
+
+.footer-top {
+  height: 200px;
+  background-color: #3A546D;
+}
+
+.footer-bottom {
+  height: 100px;
+  background-color: #2C3E50
+}
