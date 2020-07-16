@@ -5,14 +5,37 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
-.p_top_80 {
-  padding-top: 80px;
+h1 {
+  font-size: 3.6rem;
+  font-weight: bold;
 }
 
-.p_bottom_80 {
-  padding-bottom: 80px;
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+hr {
+  width: 8rem;
+  border: 1px solid;
+  display: inline-block;
+  vertical-align: super;
+  margin: 0 4px;
+}
+
+.p_top_30 {
+  padding-top: 30px;
+}
+
+.p_bottom_30 {
+  padding-bottom: 30px;
+}
+
+.p-top-10 {
+  padding-top: 10px;
 }
 
 .bg_green {
@@ -23,8 +46,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: lightblue;
 }
 
+.fa-star {
+  font-size: 24px;
+  color: inherit;
+  margin-bottom: 15px;
+}
+
 .wrapper_small {
-  max-width: 800px;
+  max-width: 80%;
   margin: auto;
 }
 
@@ -43,7 +72,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-  font-size: 28px;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header_top a {
@@ -64,12 +94,23 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
+.jumbo_text img {
+  width: 250px;
+}
+
+.jumbo_text p {
+  font-size: 2rem;
+}
+
 /* SECTIONS */
 /* portfolio */
 .box_portfolio {
-  height: 250px;
-  background-color: blue;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+}
+
+.box_portfolio img {
+  width: 100%;
+  height: auto;
 }
 
 /* FOOTER */
@@ -79,8 +120,31 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 0;
 }
 
-@media screen and (max-width:600px) {
-  h1 {
-    font-size: 25px;
+@media screen and (min-width:768px) {
+  html {
+    font-size: 12px;
+  }
+
+  .box_portfolio {
+    margin-bottom: 30px;
+  }
+
+  .wrapper_small {
+    max-width: 800px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .p_top_80 {
+    padding-top: 80px;
+  }
+
+  .p_bottom_80 {
+    padding-bottom: 80px;
+  }
+
+  .p-top-10 {
+    padding-top: none;
   }
 }
