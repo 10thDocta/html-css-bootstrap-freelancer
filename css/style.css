@@ -210,8 +210,13 @@ footer {
   background-color: #2C3E50;
 }
 
+.footer_top h4+* {
+  margin-top: 20px;
+}
+
 .social {
   font-size: 18px;
+  padding: 0;
 }
 
 .social li {
@@ -225,6 +230,7 @@ footer {
 }
 
 .social li a {
+  display: inline-block;
   height: 50px;
   width: 50px;
   line-height: 50px;
@@ -232,6 +238,15 @@ footer {
   border-radius: 50%;
   border-color: white;
   color: white;
+}
+
+.social li a:hover {
+  background-color: white;
+  color: #2C3E50;
+}
+
+.social i {
+  vertical-align: text-top;
 }
 
 .footer_bottom {
@@ -266,6 +281,6 @@ footer {
   }
 
   .p-top-10 {
-    padding-top: none;
+    padding-top: 0;
   }
 }
